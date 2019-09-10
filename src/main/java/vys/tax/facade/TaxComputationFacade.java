@@ -17,6 +17,8 @@ public class TaxComputationFacade {
                         return "SeniorCitizen";
                 } else if (te.getAge() > 18) {
                         return "OrdinaryCitizen";
+                } else if(te.getAge() < 18){
+                        return "Juveniles";
                 }
                 return null;
         }

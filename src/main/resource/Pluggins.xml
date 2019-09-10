@@ -8,4 +8,20 @@
 		<archetype>SeniorCitizen</archetype>
 		<command>vys.tax.archetypes.SeniorCitizenCommand</command>
 	</plugin>
+	<plugin>
+		<archetype>DisabledCitizen</archetype>
+		<command>vys.tax.archetypes.DisabledCitizenCommand</command>
+	</plugin>
+	<plugin>
+		<archetype>Juveniles</archetype>
+		<command>vys.tax.archetypes.JuvenilesCommand</command>
+	</plugin>
+	<plugin>
+		<archetype>SeniorCitizenFemale</archetype>
+		<command>vys.tax.archetypes.SeniorCitizenFemaleCommand</command>
+	</plugin>
+	<plugin>
+		<archetype>MilitaryPersonnel</archetype>
+		<command>vys.tax.archetypes.MilitaryPersonnelCommand</command>
+	</plugin>
 </plugins>
