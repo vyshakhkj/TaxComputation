@@ -165,7 +165,7 @@ public class TaxWindow {
                 if(te != null) {
                         boolean result = TaxComputationFacade.compute(te);
                         if (result) {
-                               message = "Tax Liability : " + valueOf(te.taxParams.getTaxLiability());
+                               message = "Tax Liability : " + te.taxParams.getTaxLiability();
                         }
                 }
                 showMessageDialog(null, message);
