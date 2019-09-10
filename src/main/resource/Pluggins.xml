@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin>
+		<archetype>OrdinaryCitizen</archetype>
+		<command>vys.tax.archetypes.OrdinaryCitizenCommand</command>
+	</plugin>
+	<plugin>
+		<archetype>SeniorCitizen</archetype>
+		<command>vys.tax.archetypes.SeniorCitizenCommand</command>
+	</plugin>
+</plugins>
